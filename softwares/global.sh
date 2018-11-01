@@ -13,6 +13,10 @@ brew install python # python
 brew install git
 brew cask install github
 
+# node
+brew install node
+brew postinstall node
+
 # remove outdated versions from the cellar
 brew cleanup
 
