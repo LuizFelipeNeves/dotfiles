@@ -15,6 +15,8 @@ brew cask install github
 
 # node
 brew install node
+sudo chown -R $(whoami) /usr/local
+brew link --overwrite node
 brew postinstall node
 
 # remove outdated versions from the cellar
