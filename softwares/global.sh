@@ -19,6 +19,9 @@ sudo chown -R $(whoami) /usr/local
 brew link --overwrite node
 brew postinstall node
 
+# mongodb
+brew install mongodb
+
 # nvm
 brew install nvm
 export NVM_DIR=~/.nvm
