@@ -11,3 +11,9 @@ source bootstrap.sh
 
 ./install-main.sh
 ```
+
+mongodb
+```
+mkdir -p /data/db
+sudo chown -R `id -un` /data/db
+```
